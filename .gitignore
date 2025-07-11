@@ -1,22 +1,22 @@
-# Virtual environments
+# Ignore virtual environment folders
 .venv/
 env/
 venv/
 
-# Python cache and bytecode
+# Ignore Python cache and bytecode files
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Distribution/build folders
+# Ignore distribution/build folders
 dist/
 build/
 *.egg-info/
 
-# Jupyter Notebook checkpoints
+# Ignore Jupyter notebook checkpoints only
 .ipynb_checkpoints/
 
-# Data files (large datasets you don't want in Git)
+# Ignore data files (large datasets)
 data/
 datasets/
 *.csv
@@ -26,34 +26,33 @@ datasets/
 *.hdf5
 *.parquet
 
-# Model checkpoints and saved weights
+# Ignore model checkpoint files and weights
 checkpoints/
 models/
 *.pt
 *.pth
 *.ckpt
 *.bin
+*.safetensors
 
-# Logs
+# Ignore logs and temp files
 logs/
 *.log
-
-# Output folders (results, predictions)
-outputs/
-results/
-
-# VSCode or IDE configs
-.vscode/
-.idea/
-*.iml
-
-# MacOS files
-.DS_Store
-
-# Temporary files
 *.tmp
 *.swp
 *.swo
 
-# Environment files (if you want to ignore)
+# Ignore output/result folders
+outputs/
+results/
+
+# Ignore IDE/editor configs
+.vscode/
+.idea/
+*.iml
+
+# Ignore MacOS system files
+.DS_Store
+
+# Ignore environment variable files
 .env
