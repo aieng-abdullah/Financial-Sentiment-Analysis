@@ -1,0 +1,59 @@
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution/build folders
+dist/
+build/
+*.egg-info/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files (large datasets you don't want in Git)
+data/
+datasets/
+*.csv
+*.tsv
+*.json
+*.h5
+*.hdf5
+*.parquet
+
+# Model checkpoints and saved weights
+checkpoints/
+models/
+*.pt
+*.pth
+*.ckpt
+*.bin
+
+# Logs
+logs/
+*.log
+
+# Output folders (results, predictions)
+outputs/
+results/
+
+# VSCode or IDE configs
+.vscode/
+.idea/
+*.iml
+
+# MacOS files
+.DS_Store
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Environment files (if you want to ignore)
+.env
