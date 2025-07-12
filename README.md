@@ -8,7 +8,7 @@
 
 ## 🔍 Problem Statement
 
-> In the fast-paced world of finance, market sentiment drives asset prices. Extracting `accurate sentiment` (positive, neutral, negative) from financial text is challenging due to domain-specific jargon and nuances.
+> In the fast-paced world of finance, market sentiment drives asset prices. Extracting `accurate sentiment` (positive, neutral, negative) from financial text is challenging due to domain-specific jargon and nuances.  
 > This project builds a **robust NLP model** delivering **real-time sentiment insights** for smarter trading and investment decisions.
 
 ---
@@ -27,27 +27,38 @@
 
 ## 📚 Dataset Source
 
-* **Dataset:** [takala/financial\_phrasebank](https://huggingface.co/datasets/takala/financial_phrasebank)
-* **Details:** 4,840 manually labeled financial news sentences with sentiment tags: `positive`, `neutral`, `negative`.
+- **Dataset:** [takala/financial_phrasebank](https://huggingface.co/datasets/takala/financial_phrasebank)  
+- **Details:** 4,840 manually labeled financial news sentences with sentiment tags: `positive`, `neutral`, `negative`.
 
 ---
 
 ## 🛠️ Key Technologies
 
-```
 Python | PyTorch/TensorFlow | Hugging Face Transformers (FinBERT) | Pandas | NumPy | Scikit-learn | Flask/FastAPI | Docker
-```
+
+
 
 ---
 
 ## 🧰 ML Pipeline Summary
 
-1. **Data Loading:** Load & split financial\_phrasebank dataset
-2. **Preprocessing:** Clean text, tokenize, handle class imbalance
-3. **Modeling:** Fine-tune domain-specific transformer (FinBERT)
-4. **Training:** Optimize hyperparameters, use cross-entropy loss
-5. **Evaluation:** Use precision, recall, F1, confusion matrix
-6. **Deployment (optional):** Serve model with REST API, containerize 🚀
+1. **Data Loading:** Load & split financial_phrasebank dataset  
+2. **Preprocessing:** Clean text, tokenize, handle class imbalance  
+3. **Modeling:** Fine-tune domain-specific transformer (FinBERT)  
+4. **Training:** Optimize hyperparameters, use cross-entropy loss  
+5. **Evaluation:** Use precision, recall, F1, confusion matrix  
+6. **Deployment (optional):** Serve model with REST API, containerize 🚀  
+
+---
+
+## 📊 Model Performance Summary
+
+| Metric     | Score  |
+|------------|--------|
+| Accuracy   | 98.9%  |
+| Precision  | 98.2%  |
+| Recall     | 98.1%  |
+| F1-score   | 98.2%  |
 
 ---
 
@@ -65,16 +76,9 @@ python src/models/evaluate.py
 
 # Start API server
 python api/app.py
-```
+📄 License
+This project is licensed under the MIT License – see LICENSE.md.
 
----
-
-## 📄 License
-
-This project is licensed under the **MIT License** – see [LICENSE.md].
-
----
-
-## ✉️ Contact
-
-**Abdullah Al Arif**
+✉️ Contact
+Abdullah Al Arif
+ Email:aieng.abdullah.arif@gmail.com
