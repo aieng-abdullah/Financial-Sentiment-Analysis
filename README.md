@@ -69,7 +69,7 @@ Python | PyTorch/TensorFlow | Hugging Face Transformers (FinBERT) | Pandas | Num
 pip install -r requirements.txt
 
 # Train the model
-python src/models/train.py
+python src/models/fine_bert.py
 
 # Evaluate
 python src/models/evaluate.py
