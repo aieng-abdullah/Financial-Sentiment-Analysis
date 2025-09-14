@@ -18,11 +18,11 @@ MAX_LENGTH = 64
 def clean_text(text: str) -> str:
     """Clean text by removing URLs, hashtags, mentions, and unwanted characters."""
     text = str(text)
-    text = re.sub(r"http\S+|www\S+", "", text)             # Remove URLs
-    text = re.sub(r"@[\w]+|#[\w]+", "", text)              # Remove mentions and hashtags
-    text = re.sub(r"[^a-zA-Z0-9$€%.,!? ]+", " ", text)     # Keep finance-relevant symbols
-    return re.sub(r"\s+", " ", text).strip().lower()       # Normalize spacing
-
+    text = re.sub(r"http\S+|www\S+", "", text)             
+    text = re.sub(r"@[\w]+|#[\w]+", "", text)              
+    text = re.sub(r"[^a-zA-Z0-9$€%.,!? ]+", " ", text)     
+    return re.sub(r"\s+", " ", text).strip().lower()       
+    
 def preprocess():
     # Load dataset
     df = pd.read_csv(RAW_DATA_PATH)
@@ -60,3 +60,4 @@ def preprocess():
 
 if __name__ == "__main__":
     preprocess()
+
