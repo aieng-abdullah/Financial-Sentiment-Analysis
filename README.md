@@ -34,7 +34,7 @@
 
 ## 🛠️ Key Technologies
 
-Python | PyTorch/TensorFlow | Hugging Face Transformers (FinBERT) | Pandas | NumPy | Scikit-learn | Flask/FastAPI | Docker
+Python | PyTorch/TensorFlow | Hugging Face Transformers (FinBERT) | Pandas | NumPy  Flask/FastAPI | Docker
 
 
 
