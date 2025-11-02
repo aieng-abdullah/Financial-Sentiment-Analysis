@@ -64,7 +64,7 @@ Python | PyTorch/TensorFlow | Hugging Face Transformers (FinBERT) | Pandas | Num
 
 ## 🚀 Quick Start
 
-```bash
+bash
 # Install dependencies
 pip install -r requirements.txt
 
@@ -79,4 +79,4 @@ This project is licensed under the MIT License – see LICENSE.md.
 
 ✉️ Contact
 Abdullah Al Arif
- Email:aieng.abdullah.arif@gmail.com
+Email:aieng.abdullah.arif@gmail.com
