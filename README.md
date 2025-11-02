@@ -74,8 +74,6 @@ python src/models/finbert_model.py
 # Evaluate
 python src/models/evaluate.py
 
-# Start API server
-python api/app.py
 📄 License
 This project is licensed under the MIT License – see LICENSE.md.
 
